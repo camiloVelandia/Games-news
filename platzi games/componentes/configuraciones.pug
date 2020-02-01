@@ -1,0 +1,9 @@
+-var titulo = "Titulo Principal"
+-var titulos = ["Titulo Principal", "subtitulo 1", "subtitulo 2", "subtitulo 3"]
+-var enlaces=['acerca','noticias','contacto']
+mixin caja (imagen,titulo,contenido)
+  .caja
+    .caja__imagen: img(src="images/"+imagen)
+    .caja__contenido
+      h3=titulo
+      p=contenido 
